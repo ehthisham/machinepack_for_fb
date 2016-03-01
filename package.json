@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      "machinepack-facebook",
+      "/home/basilin/sails/wandertrails"
+    ]
+  ],
+  "_from": "machinepack-facebook@latest",
+  "_id": "machinepack-facebook@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/machinepack-facebook",
+  "_nodeVersion": "0.10.37",
+  "_npmUser": {
+    "email": "particlebanana@gmail.com",
+    "name": "particlebanana"
+  },
+  "_npmVersion": "2.12.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "machinepack-facebook",
+    "raw": "machinepack-facebook",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/machinepack-facebook/-/machinepack-facebook-1.1.0.tgz",
+  "_shasum": "eff8993d4886ecf86156d2a9f6e63a0be56dba60",
+  "_shrinkwrap": null,
+  "_spec": "machinepack-facebook",
+  "_where": "/home/basilin/sails/wandertrails",
+  "author": {
+    "name": "Mike McNeil"
+  },
+  "bugs": {
+    "url": "https://github.com/irlnathan/machinepack-facebook/issues"
+  },
+  "dependencies": {
+    "machine": "^10.3.1",
+    "request": "^2.45.0"
+  },
+  "description": "Communicate with Facebook to authenticate, get profile data, friends, likes, and more.",
+  "devDependencies": {
+    "mocha": "~1.19.0",
+    "test-machinepack-mocha": "^2.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "eff8993d4886ecf86156d2a9f6e63a0be56dba60",
+    "tarball": "http://registry.npmjs.org/machinepack-facebook/-/machinepack-facebook-1.1.0.tgz"
+  },
+  "gitHead": "165bfb096728a8be45c0ae688289845e3b44fc26",
+  "homepage": "https://github.com/irlnathan/machinepack-facebook#readme",
+  "keywords": [
+    "machines",
+    "machinepack",
+    "facebook",
+    "facebook-api"
+  ],
+  "license": "MIT",
+  "machinepack": {
+    "machineDir": "machines",
+    "machines": [
+      "get-access-token",
+      "get-login-url",
+      "get-user-by-access-token"
+    ],
+    "testsUrl": "https://travis-ci.org/irlnathan/machinepack-facebook"
+  },
+  "maintainers": [
+    {
+      "email": "mike@balderdash.co",
+      "name": "balderdashy"
+    },
+    {
+      "email": "scott@balderdash.co",
+      "name": "sgress454"
+    },
+    {
+      "email": "particlebanana@gmail.com",
+      "name": "particlebanana"
+    },
+    {
+      "email": "irlnathan@gmail.com",
+      "name": "irl"
+    },
+    {
+      "email": "michael.r.mcneil@gmail.com",
+      "name": "mikermcneil"
+    }
+  ],
+  "name": "machinepack-facebook",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/irlnathan/machinepack-facebook.git"
+  },
+  "scripts": {
+    "test": "mocha -b"
+  },
+  "version": "1.1.0"
+}
